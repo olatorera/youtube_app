@@ -1,11 +1,13 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
-import Navbar from "./components/Navbar";
-import Feed from "./components/Feed";
-import ChannelDetail from "./components/ChannelDetail";
-import SearchFeed from "./components/SearchFeed";
-import VideoDetail from "./components/VideoDetail";
+import {
+  Navbar,
+  Feed,
+  VideoDetail,
+  ChannelDetail,
+  SearchFeed,
+} from "./components";
 
 const App = () => (
   <BrowserRouter>
