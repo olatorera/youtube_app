@@ -17,10 +17,10 @@ const Navbar = () => (
       justifyContent: "space-between",
     }}
   >
-    <Link to="/" style={{ display: "flex", alignContent: "center" }}>
+    <Link to="/" style={{ display: "flex", justifyContent: "flex-end" }}>
       <img src={logo} alt="logo" height={45} />
-      <SearchBar />
     </Link>
+    <SearchBar />
   </Stack>
 );
 

@@ -1,10 +1,12 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import { Box, Stack, Typography } from "@mui/material";
 
 const Feed = () => {
   return (
-    <div>
+    <Stack>
       <p>Feed</p>
-    </div>
+    </Stack>
   );
 };
 
