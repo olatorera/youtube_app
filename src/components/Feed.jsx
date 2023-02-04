@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import { Sidebar } from "./Sidebar";
+import Sidebar from "./Sidebar";
 
 const Feed = () => {
   return (

@@ -14,7 +14,10 @@ const Sidebar = () => {
       }}
     >
       {categories.map((Category) => (
-        <button></button>
+        <button>
+          <span>{Category.icon}</span>
+          <span>{Category.name}</span>
+        </button>
       ))}
     </Stack>
   );
