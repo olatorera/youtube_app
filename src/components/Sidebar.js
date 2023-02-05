@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack } from "@mui/material";
 import { categories } from "../utils/Constants";
-import { Category } from "@mui/icons-material";
+// import { Category } from "@mui/icons-material";
 
 const Sidebar = () => {
   return (
