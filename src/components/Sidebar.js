@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack } from "@mui/material";
 import { categories } from "../utils/Constants";
-// import { Category } from "@mui/icons-material";
+// import { category } from "../utils/Constants";
 
 const Sidebar = () => {
   return (
@@ -13,10 +13,15 @@ const Sidebar = () => {
         flexDirection: { md: "column" },
       }}
     >
-      {categories.map((Category) => (
-        <button>
-          <span>{Category.icon}</span>
-          <span>{Category.name}</span>
+      {categories.map((category) => (
+        <button
+          className="category-btn"
+          style={{
+            background: category.color,
+          }}
+        >
+          <span>{category.icon}</span>
+          <span>{category.name}</span>
         </button>
       ))}
     </Stack>
